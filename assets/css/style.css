@@ -1,0 +1,92 @@
+* {
+
+	font-family: Dosis,Amaranth, sans-serif;
+}
+
+body {
+
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsKeCZcv5MUFCLPJo8k9uMfxXS38mV7f0ooSUpXXZ0lC9CmL4f7w);
+
+}
+#header{
+	background-color: orange;
+	color: white;
+	width: 30%;
+	font-size: 50px;
+	text-align: justify;
+	clear: both;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: solid 1px #ddd;
+}
+
+#container {
+	width: 100%
+	max-width:960px;
+	margin: 0 auto;
+}
+
+#instructions {
+	background-color: gold;
+	width: 50%;
+	clear:both;
+	padding: 15px;
+	margin-top: 20px;
+	border: solid 1px #ddd
+	font-size: 50px;
+}
+
+/*p:first-child {
+	font-size: 25px;
+	margin-bottom: 15px;
+}*/
+
+#guessingNumber {
+	background-color: green;
+	float: left;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 20px;
+	border: solid 1px #ddd
+}
+#scoreboard {
+	background-color: #03A9F4;
+	display: inline-block;
+	padding: 15px 20px 10px 15px;
+	margin-top: 20px;
+	margin-left: 20px;
+	border: solid 1px #ddd
+
+}
+
+#crystals {
+	margin-top: 15px;
+	margin-bottom:26px;
+
+}
+
+.crystalImage {
+	height: 111px;
+	border: solid 1px #272525;
+	margin-left: 10px
+}
+
+.crystalImage:firstchild {
+	margin-left: 0px;
+
+}
+p:first-child {
+	font-size: 20px;
+}
+
+#totalScore {
+	margin-bottom: 50px;
+}
+
+#yts {
+	background: #009688;
+	display: inline;
+	padding: 20px;
+	border: solid 1px #ddd
+}
